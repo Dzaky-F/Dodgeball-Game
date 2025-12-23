@@ -1,0 +1,30 @@
+{
+    "Dodgeball": {
+        "elo": 1197.3101431059301,
+        "checkpoints": [
+            {
+                "steps": 70150,
+                "file_path": "results\\dodgeballtest22\\Dodgeball\\Dodgeball-70150.onnx",
+                "reward": -0.1598570826918559,
+                "creation_time": 1762185334.0982137,
+                "auxillary_file_paths": [
+                    "results\\dodgeballtest22\\Dodgeball\\Dodgeball-70150.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 70150,
+            "file_path": "results\\dodgeballtest22\\Dodgeball.onnx",
+            "reward": -0.1598570826918559,
+            "creation_time": 1762185334.0982137,
+            "auxillary_file_paths": [
+                "results\\dodgeballtest22\\Dodgeball\\Dodgeball-70150.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

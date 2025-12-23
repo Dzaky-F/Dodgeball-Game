@@ -1,0 +1,48 @@
+{
+    "Dodgeball": {
+        "checkpoints": [
+            {
+                "steps": 599938,
+                "file_path": "results\\dodgeballtest16\\Dodgeball\\Dodgeball-599938.onnx",
+                "reward": 20.496520411411794,
+                "creation_time": 1762175292.9592338,
+                "auxillary_file_paths": [
+                    "results\\dodgeballtest16\\Dodgeball\\Dodgeball-599938.pt"
+                ]
+            },
+            {
+                "steps": 699951,
+                "file_path": "results\\dodgeballtest16\\Dodgeball\\Dodgeball-699951.onnx",
+                "reward": 33.44150262326002,
+                "creation_time": 1762175666.3773696,
+                "auxillary_file_paths": [
+                    "results\\dodgeballtest16\\Dodgeball\\Dodgeball-699951.pt"
+                ]
+            },
+            {
+                "steps": 767383,
+                "file_path": "results\\dodgeballtest16\\Dodgeball\\Dodgeball-767383.onnx",
+                "reward": 37.650209632541596,
+                "creation_time": 1762175932.4643052,
+                "auxillary_file_paths": [
+                    "results\\dodgeballtest16\\Dodgeball\\Dodgeball-767383.pt"
+                ]
+            }
+        ],
+        "elo": 1236.4521328357132,
+        "final_checkpoint": {
+            "steps": 767383,
+            "file_path": "results\\dodgeballtest16\\Dodgeball.onnx",
+            "reward": 37.650209632541596,
+            "creation_time": 1762175932.4643052,
+            "auxillary_file_paths": [
+                "results\\dodgeballtest16\\Dodgeball\\Dodgeball-767383.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

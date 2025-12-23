@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1762074276",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Dzaky\\.conda\\envs\\mlagents\\Scripts\\mlagents-learn --run-id=dodgeballtest1 --resume",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1762074284"
+    },
+    "total": 7.5562957000220194,
+    "count": 1,
+    "self": 0.1794116000237409,
+    "children": {
+        "run_training.setup": {
+            "total": 0.047924900020007044,
+            "count": 1,
+            "self": 0.047924900020007044
+        },
+        "TrainerController.start_learning": {
+            "total": 7.3289591999782715,
+            "count": 1,
+            "self": 0.0010229999898001552,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.327905799989821,
+                    "count": 1,
+                    "self": 7.327905799989821
+                },
+                "trainer_threads": {
+                    "total": 3.7999998312443495e-06,
+                    "count": 1,
+                    "self": 3.7999998312443495e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.6599998818710446e-05,
+                    "count": 1,
+                    "self": 2.6599998818710446e-05
+                }
+            }
+        }
+    }
+}
